@@ -30,8 +30,8 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    // origin: "https://enchanting-blini-25d4de.netlify.app",
-    origin: "*",
+    origin: "akj-chat.netlify.app",
+    // origin: "*",
     credentials: true,
   },
 });
