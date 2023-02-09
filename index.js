@@ -30,7 +30,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "*",
+    origin: "https://enchanting-blini-25d4de.netlify.app",
     credentials: true,
   },
 });
